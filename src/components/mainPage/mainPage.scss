@@ -1,0 +1,12 @@
+.main-page {
+	&__content {
+		display: grid;
+		grid-template-columns: 360px 664px;
+		gap: 24px;
+	}
+
+	&__hotels {
+		grid-column: 2;
+		grid-row: 1 / span 2;
+	}
+}

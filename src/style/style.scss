@@ -1,0 +1,30 @@
+@import 'libs/bootstrap-reboot.min';
+
+//libs
+
+//fonts
+@import 'libs/fonts';
+
+//base
+@import 'variables';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #424242;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+.container {
+    width: 1048px;
+    margin: 0 auto;
+}
+
+//blocks
+@import 'ui';
+
+// @import 'blocks/media';

@@ -1,0 +1,28 @@
+.header {
+	padding: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&__logo {
+		margin: 0;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	&__unlogin-btn {
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+	}
+
+	&__unlogin-btn-title {
+		margin-right: 12px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		letter-spacing: -0.408px;
+		color: #41522E;
+	}
+}

@@ -1,0 +1,9 @@
+.raiting-stars {
+	&__item {
+		margin-right: 3px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
