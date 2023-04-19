@@ -11,7 +11,7 @@ const SearchForm = ({className, city, date, days, todayDate, setCity, setDate, s
 
 	useEffect(() => {
 		fetchHotels();
-	}, []);
+	}, [fetchHotels]);
 
 	const onSubmit = e => {
 		e.preventDefault();
